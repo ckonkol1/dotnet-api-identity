@@ -1,0 +1,14 @@
+@Identity_HostAddress = http://localhost:5237
+
+POST {{Identity_HostAddress}}/identity/token
+Content-Type: application/json
+{
+  "userid": "1f4820b1-21a6-4fe4-8dad-b886fab90f8b",
+  "email": "admin@bytesizebrews.com",
+  "CustomClaims": {
+    "admin" : false
+  }
+}
+
+
+###
